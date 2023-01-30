@@ -4,63 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Solar System</title>
     <style>
-        table {border:2px solid black}
-        th {border:1px solid blue; padding: 8px;}
-        td {border:1px solid red; padding: 8px;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.about {
+    float: right;
+}
+a:hover {
+    color: blue;
+}
     </style>
 </head>
 <body>
-   <h1>Table</h1>
-   <table>
-    <tr>
-        <th>Country</th>
-        <th>Capital</th>
-    </tr>
-    <tr>
-        <td>India</td>
-        <td>New Delhi</td>
-    </tr>
-    <tr>
-        <td>China</td>
-        <td>Beijing</td>
-    </tr>
-    <tr>
-        <td>Japan</td>
-        <td>Tokyo</td>
-    </tr>
-    <tr>
-        <td>Russia</td>
-        <td>Moscow</td>
-    </tr>
-    <tr>
-        <td>Franch</td>
-        <td>Paris</td>
-    </tr>
-    <tr>
-        <td>Spain</td>
-        <td>Madrid</td>
-    </tr>
-    <tr>
-        <td>U.S.A</td>
-        <td>Washington, D.C.</td>
-    </tr>
-    <tr>
-        <td>Britain</td>
-        <td>London</td>
-    </tr>
-    <tr>
-        <td>Germany</td>
-        <td>Berlin</td>
-    </tr>
-    <tr>
-        <td>New Zealand</td>
-        <td>Wellington</td>
-    </tr>
-   </table>
-    <form>
-        <input type="text" placeholder="name">
-    </form>
+<nav class="topic"><ul>
+    <li class="home"><a href="#">Home</a></li>
+    <li class="solar"><a href="#">Solar-System</a></li>
+    <li class="star"><a href="#">Stars-and-Galaxies</a></li>
+<li><a href="#" class="about">About</a></li>
+</ul>
+</nav>   
+   <script src="work.js"></script>
 </body>
 </html>
